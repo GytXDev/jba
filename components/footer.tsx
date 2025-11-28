@@ -124,9 +124,24 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-6 pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-neutral-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} JBA Architecture. Tous droits réservés.
-          </p>
+          <div className="flex flex-col md:flex-row gap-4 md:items-center mb-4 md:mb-0">
+            <p className="text-neutral-400 text-sm">
+              © {new Date().getFullYear()} JBA Architecture. Tous droits
+              réservés.
+            </p>
+            <span className="hidden md:inline text-neutral-600">•</span>
+            <p className="text-neutral-400 text-sm">
+              Développé par{" "}
+              <a
+                href="https://gytx.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-300 hover:text-white transition-colors underline underline-offset-2"
+              >
+                GytX Agence
+              </a>
+            </p>
+          </div>
           <div className="flex gap-6">
             <a
               href="#"

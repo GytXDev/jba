@@ -2,11 +2,11 @@
 
 Site web portfolio pour **Jennyfer Batolo Architecture**, une agence d'architecture contemporaine au Gabon.
 
-## 🏗️ À propos
+## À propos
 
 JBA conçoit des espaces architecturaux modernes, intemporels, minimalistes et techniquement maîtrisés. Le site présente les projets, services et processus de l'agence avec un design contemporain et épuré.
 
-## 🚀 Technologies utilisées
+## Technologies utilisées
 
 - **Next.js 15** - Framework React pour la production
 - **TypeScript** - Typage statique
@@ -14,7 +14,7 @@ JBA conçoit des espaces architecturaux modernes, intemporels, minimalistes et t
 - **Framer Motion** - Animations fluides
 - **Lucide React** - Icônes
 
-## 📦 Installation
+## Installation
 
 1. **Installer les dépendances**
 
@@ -37,7 +37,7 @@ JBA conçoit des espaces architecturaux modernes, intemporels, minimalistes et t
    npm start
    ```
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 ├── app/              # Pages et layouts Next.js
@@ -60,17 +60,17 @@ JBA conçoit des espaces architecturaux modernes, intemporels, minimalistes et t
 └── lib/              # Utilitaires
 ```
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-- ✨ Design contemporain et épuré
-- 🎯 Navigation fluide avec scroll smooth
-- 📱 Entièrement responsive (mobile-first)
-- 🎭 Animations et transitions fluides
-- 🌙 Thème sombre par défaut
-- ⚡ Optimisation des performances (lazy loading)
-- 🖼️ Optimisation des images avec Next.js Image
+- Design contemporain et épuré
+- Navigation fluide avec scroll smooth
+- Entièrement responsive (mobile-first)
+- Animations et transitions fluides
+- Thème sombre par défaut
+- Optimisation des performances (lazy loading)
+- Optimisation des images avec Next.js Image
 
-## 🔧 Configuration
+## Configuration
 
 Le projet est configuré pour être déployé sur **Vercel**. Voir `vercel.json` pour la configuration du déploiement.
 
@@ -78,7 +78,7 @@ Le projet est configuré pour être déployé sur **Vercel**. Voir `vercel.json`
 
 Aucune variable d'environnement requise pour le moment.
 
-## 📄 Licence
+## Licence
 
 Propriétaire - Jennyfer Batolo Architecture
 
