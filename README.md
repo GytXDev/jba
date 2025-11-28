@@ -1,63 +1,87 @@
+# JBA - Jennyfer Batolo Architecture
 
----
+Site web portfolio pour **Jennyfer Batolo Architecture**, une agence d'architecture contemporaine au Gabon.
 
-# MONO – Creative Agency Portfolio Template (Next.js + Tailwind CSS)
+## 🏗️ À propos
 
-**MONO** is a stylish and modern portfolio template built with **Next.js** and **Tailwind CSS**. Ideal for creative agencies, freelancers, and designers who want a bold, professional online presence.
+JBA conçoit des espaces architecturaux modernes, intemporels, minimalistes et techniquement maîtrisés. Le site présente les projets, services et processus de l'agence avec un design contemporain et épuré.
 
-🔗 **Live Demo & Details:** [aniq-ui.com MONO Template](https://www.aniq-ui.com/en/templates/creative-agency-portfolio-nextjs-template)
+## 🚀 Technologies utilisées
 
-## 🚀 Getting Started
+- **Next.js 15** - Framework React pour la production
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Styles utilitaires
+- **Framer Motion** - Animations fluides
+- **Lucide React** - Icônes
 
-To get started locally:
+## 📦 Installation
 
-1. **Install dependencies**
-
-   ```sh
-   yarn install
-   ```
-
-2. **Start the development server**
-
-   ```sh
-   yarn dev
-   ```
-
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-3. **Build for production**
+1. **Installer les dépendances**
 
    ```sh
-   yarn build
-   yarn start
+   npm install
    ```
 
-## 🧠 Project Structure
+2. **Lancer le serveur de développement**
+
+   ```sh
+   npm run dev
+   ```
+
+   Ouvrir [http://localhost:3000](http://localhost:3000) dans votre navigateur.
+
+3. **Construire pour la production**
+
+   ```sh
+   npm run build
+   npm start
+   ```
+
+## 📁 Structure du projet
 
 ```
-├── public/          # Static assets (images, fonts, etc.)
-├── src/             # Source code
-│   ├── components/  # Reusable UI components
-│   ├── pages/       # Next.js pages
-│   ├── styles/      # Tailwind & custom styles
-│   └── lib/         # Utilities and helpers
-└── .next/           # Build output (auto-generated)
+├── app/              # Pages et layouts Next.js
+│   ├── layout.tsx    # Layout principal
+│   ├── page.tsx      # Page d'accueil
+│   └── globals.css   # Styles globaux
+├── components/       # Composants React réutilisables
+│   ├── hero.tsx      # Section héro
+│   ├── features.tsx  # Services
+│   ├── work.tsx      # Projets
+│   ├── process.tsx   # Processus
+│   ├── testimonials.tsx # Témoignages
+│   ├── contact.tsx   # Contact
+│   ├── navbar.tsx    # Navigation
+│   ├── footer.tsx    # Pied de page
+│   └── ...
+├── public/           # Assets statiques (images, icônes)
+│   ├── icons/        # Icônes de services
+│   └── works/        # Images des projets
+└── lib/              # Utilitaires
 ```
 
-## 🌟 Features
+## ✨ Fonctionnalités
 
-* ✨ Built with Next.js and Tailwind CSS
-* 🎭 Bold, minimal design
-* 🖼️ Optimized for showcasing portfolios
-* 📱 Fully responsive and mobile-ready
-* 🔄 Easy to customize and scale
+- ✨ Design contemporain et épuré
+- 🎯 Navigation fluide avec scroll smooth
+- 📱 Entièrement responsive (mobile-first)
+- 🎭 Animations et transitions fluides
+- 🌙 Thème sombre par défaut
+- ⚡ Optimisation des performances (lazy loading)
+- 🖼️ Optimisation des images avec Next.js Image
 
-## 💬 Support
+## 🔧 Configuration
 
-For questions or support, contact the [Aniq UI team](https://www.aniq-ui.com/#contact).
+Le projet est configuré pour être déployé sur **Vercel**. Voir `vercel.json` pour la configuration du déploiement.
+
+### Variables d'environnement
+
+Aucune variable d'environnement requise pour le moment.
+
+## 📄 Licence
+
+Propriétaire - Jennyfer Batolo Architecture
 
 ---
 
-Created by [Aniq UI](https://www.aniq-ui.com) — Premium Next.js Templates for modern web apps.
-
----
+Développé par [GytX Agence](https://gytx.dev)
