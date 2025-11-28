@@ -75,7 +75,7 @@ export default function Contact() {
                 id="message"
                 rows={5}
                 className="w-full bg-white/5 border-2 border-white/20 p-3 text-white placeholder:text-white/30 focus:border-white focus:outline-none transition-colors"
-                placeholder="Tell us about your project..."
+                placeholder="Parlez-nous de votre projet..."
               ></textarea>
             </div>
             <button className="w-full bg-white text-black py-3 text-sm uppercase tracking-widest hover:bg-white/90 transition-colors relative group overflow-hidden">
